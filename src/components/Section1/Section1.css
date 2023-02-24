@@ -1,0 +1,97 @@
+section.section1{
+  margin-top: 8.9rem;
+  text-align: center;
+}
+
+.section1 h2 {
+  width: 100%;
+  max-width: 76.2rem;
+  margin: auto;
+  font-size: 32px;
+  line-height: 29px;
+}
+
+.section1 p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 22px;
+  max-width: 70.6rem;
+  margin: 3rem auto;
+}
+.card-group {
+  margin-top: 6.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 117.8rem;
+  margin: auto;
+}
+.card {
+  max-width: 38rem;
+}
+.card img {
+  background: #881AFF;
+  box-shadow: 0px 0px 20px 8px #1BC6FF;
+  padding: 2rem;
+  border-radius: 45%;
+}
+
+.card h3 {
+  margin: 1.6rem auto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 15px;
+  margin: 1.6rem auto
+}
+
+@media screen and (max-width: 600px) {
+  section.section1{
+    margin-top: 2.8rem;
+    text-align: center;
+  }
+
+  .section1{
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .section1 h2 {
+    font-size: 21px;
+    line-height: 23px;
+  }
+  .section1 p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .card-group {
+    margin-top: 5.9rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 4.1rem;
+  }
+
+  .card img {
+    margin: auto;
+  }
+
+  .card h3 {
+    margin: 1.6rem auto;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 21px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    line-height: 15px;
+    margin: 1.6rem auto
+  }
+}
