@@ -8,7 +8,7 @@ function App() {
     <>
       <NavBar></NavBar>
       <HeroSection
-        heroTitle="Transforme sua equipe em uma máquina de produtividade com nosso software de gestão e engajamento!"
+        heroTitle="Transforme sua equipe em uma máquina de produtividade com nosso software de gestão e engajamento para sua equipe!"
         desc="Experimente gratuitamente por 14 dias e aumente a produtividade da sua equipe!"
         cta="Solicite o seu teste ainda hoje!"
       ></HeroSection>
