@@ -18,12 +18,14 @@ const Section2 = () => {
     },
   ]
 
+  const macbook1 = "https://github.com/ardassejose/team-up/blob/main/public/images/macbook1.png?raw=true";
+
   return (
     <>
       <section className='section2'>
         <div className='content'>
           <div className='imgSide'>
-            <img src={'./images/macbook1.png'} className='leftImg'/>
+            <img src={macbook1} className='leftImg'/>
           </div>
           <div className='textSide'>
             <h2 className='title'>Ter uma plataforma de gestão de equipes oferece vários benefícios, incluindo:</h2>
