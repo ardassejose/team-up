@@ -1,0 +1,69 @@
+section.section4{
+  width: 100%;
+  text-align: center;
+  padding: 5rem 0 5rem;
+  background-color: #1194FF;
+}
+
+.section4 h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+
+.section4 h2 {
+  color: #FFFFFF;
+  margin: auto;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 22px;
+  margin-bottom: 4.3rem;
+}
+
+.lojaApps button {
+  color: #FFFFFF;
+  background-color: #881AFF;
+  width: 100%;
+  max-width: 35.3rem;
+  padding: 0;
+}
+
+.lojaApps a {
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.loja {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0 3rem;
+}
+
+.loja img {
+  margin-right: 1rem;
+}
+
+.loja p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 76.8rem) {
+  .lojaApps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 1rem;
+  }
+  .buttonLoja {
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+}
