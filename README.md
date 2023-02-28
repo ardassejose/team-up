@@ -19,6 +19,8 @@ O projeto, atualmente está em sua v7. Nesta versão, a Home Page encontra-se em
 - Footer
 
 ## Futuras implementações
+- Navbar responsiva para o mobile;
+> ![Navbar_expanded_mobile](https://user-images.githubusercontent.com/63654800/221903998-fa75fb8f-a0d1-463d-bfd8-395216bf7d2a.png)
 - Páginas de Produtos, Contato e Sobre;
 > React Routers and Links.
 - Registrar e fazer Login;
