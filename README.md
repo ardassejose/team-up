@@ -24,6 +24,7 @@ O projeto, atualmente está em sua v7. Nesta versão, a Home Page encontra-se em
 - Registrar e fazer Login;
 > Back-end ainda será decidido entre PHP ou outra stack.
 - Tela interna do Software;
+> ![tela-interna-software](https://user-images.githubusercontent.com/63654800/221902131-53d970c8-a51f-4109-82fc-f38eefdd0d2e.png)
 > Principais funcionalidades que darão vida ao software:
 > Mudança de informações pessoais;
 > Gerenciamento de equipe;
