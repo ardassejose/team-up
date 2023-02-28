@@ -40,5 +40,9 @@ O projeto, atualmente está em sua v7. Nesta versão, a Home Page encontra-se em
 - José Araújo (Dev back-end PHP)
 - Gabrielly Santos (Dev Web)
 
+## Protótipo referência – Criado por José Víctor Ardasse
+O protótipo foi 100% feito na plataforma Figma e se encontra disponível através do seguinte link:
+> https://www.figma.com/file/DMbc8FWuHgcrvlYJrugdbA/landing-page-teamUP?node-id=0%3A1&t=rvDUNrETWcQy5ker-0
+
 Agradecemos ao apoio de todos nesse projeto open-source que poderá ser usado por todos os envolvidos como portfólio.
 Feito com ❤️ e React.js
