@@ -16,20 +16,24 @@ const Section4 = (props) => {
   ]
 
   return(
-    <section className='section4'>
-      <h1>Conheça o nosso aplicativo mobile!</h1>
-      <h2>Disponível nas principais lojas mobile</h2>
-      <div className='lojaApps'>
-          {lojas.map((item, index) => (
-            <button key={index} className="buttonLoja">
-              <a href={item.link} className='loja'>
-              <img src={item.logo}/>
-              <p>{item.cta}</p>
-              </a>
-            </button>
-          ))}
-      </div>
-    </section>
+    <>
+      <section className='section4'>
+        <div className='container'>
+          <h1>Conheça o nosso aplicativo mobile!</h1>
+          <h2>Disponível nas principais lojas mobile</h2>
+          <div className='lojaApps'>
+            {lojas.map((item, index) => (
+              <button key={index} className="buttonLoja">
+                <a href={item.link} className='loja'>
+                <img src={item.logo}/>
+                <p>{item.cta}</p>
+                </a>
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
   )
 }
 

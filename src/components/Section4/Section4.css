@@ -21,6 +21,10 @@ section.section4{
   margin-bottom: 4.3rem;
 }
 
+.lojaApps {
+  margin: 0 auto;
+}
+
 .lojaApps button {
   color: #FFFFFF;
   background-color: #881AFF;
@@ -33,6 +37,15 @@ section.section4{
   color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
+}
+
+button.buttonLoja {
+  border-radius: 1rem;
+  border: none;
+}
+
+.buttonLoja:nth-child(1){
+  margin-right: 2rem;
 }
 
 .loja {
@@ -54,6 +67,20 @@ section.section4{
 }
 
 @media screen and (max-width: 76.8rem) {
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .section4 h1 {
+    font-size: 3.7rem;
+    line-height: 3.7rem;
+  }
+  .section4 h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 4.3rem;
+  }
   .lojaApps {
     display: flex;
     flex-direction: column;
@@ -61,7 +88,12 @@ section.section4{
     justify-content: center;
     padding: 1rem 0 1rem;
   }
-  .buttonLoja {
+  .loja p {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+  .buttonLoja:nth-child(1) {
     margin: 0;
     margin-bottom: 2rem;
     padding: 0;

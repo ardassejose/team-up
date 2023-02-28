@@ -22,8 +22,6 @@ const Footer = () => {
       links: ['LinkedIn', 'Instagram', 'Facebook', 'Youtube']
     }
   ]
-  let teste = footer_links.links;
-  console.log(teste);
 
   return (
     <>
@@ -34,7 +32,16 @@ const Footer = () => {
             <p>© {date}</p>
           </div>
           <div className='link-main'>
-            {/* Impletentação */}
+            {footer_links.map((item, index) => (
+              <div className='link' key={index}>
+                <h2>{item.group}</h2>
+                <ul className='footer-list'>
+                  {footer_links[index].links.map((link, index) => (
+                    <li key={index}><a href='#'>{link}</a></li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -43,14 +50,3 @@ const Footer = () => {
 }
 
 export default Footer;
-
-{/* <div className='link'>
-              <h2>Empresa</h2>
-              <ul>
-                <li><a href='#'>Sobre nós</a></li>
-                <li><a href='#'>Sobre nós</a></li>
-                <li><a href='#'>Sobre nós</a></li>
-                <li><a href='#'>Sobre nós</a></li>
-                <li><a href='#'>Sobre nós</a></li>
-              </ul>
-            </div> */}

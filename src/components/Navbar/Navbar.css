@@ -39,22 +39,22 @@ ul {
   color: #FFFFFF;
 }
 
-ul li {
+.left ul li {
   margin-right: 4.7rem;
 }
 
-li a {
+.left li a {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 2.6rem;
   line-height: 3.3rem;
 }
 
-li a:hover {
+.left li a:hover {
   color: #e6e6e6;
 }
 
-button {
+.right button {
   background-color: #20F9FF;
   border-radius: 1rem;
   margin-right: 2.6rem;
@@ -86,7 +86,7 @@ button:nth-child(2){
     margin: auto;
   }
 
-  ul li {
+  .left ul li {
     text-align: center;
     margin: auto;
     margin-bottom: 1.9rem;
@@ -102,22 +102,24 @@ button:nth-child(2){
     flex-direction: column;
     align-items: center;
   }
+  .left ul li a {
+    font-size: 2.1rem;
+    line-height: 2.3rem;
+  }
 
   .right {
     display: block;
     width: 100%;
     margin: 1.9rem 0;
   }
-
-  button {
+  .right button {
+    font-size: 1.9rem;
     width: 100%;
     display: block;
     margin-bottom: 1.9rem;
     padding: 1.5rem;
     border: none;
-
   }
-
   button:nth-child(2) {
     margin: 0;
   }
