@@ -60,17 +60,16 @@ header .container {
 
 @media screen and (max-width: 76.8rem) {
   header .container {
-    background-image: url(./images/hero_background.jpg);
     background-size: cover;
     background-position: center center;
-    width: 100%;
-    height: 44.9rem;
+    height: fit-content;
   }
   .box {
     margin: 0;
     text-align: center;
     max-width: 29.2rem;
     margin: auto;
+    padding: 3rem 0;
   }
   .box button {
     border: none;
