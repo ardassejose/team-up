@@ -2,6 +2,7 @@ import { useState } from 'react'
 import HeroSection from './components/HeroSection'
 import NavBar from './components/Navbar'
 import Section1 from './components/Section1'
+import Section2 from './components/Section2'
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
         title="Já imaginou como seria fácil gerenciar sua equipe com um só software?"
         desc="Descubra agora todas as funcionalidades que nosso software de engajamento e gestão de equipes oferece e simplifique sua rotina de trabalho."
       ></Section1>
+      <Section2></Section2>
     </>
   )
 }
 
-export default App
+export default App;

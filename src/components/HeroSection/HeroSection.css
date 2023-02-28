@@ -57,7 +57,7 @@ header .container {
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 76.8rem) {
   header .container {
     background-image: url(./images/hero_background.jpg);
     background-size: cover;

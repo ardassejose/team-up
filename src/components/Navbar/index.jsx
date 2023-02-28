@@ -12,7 +12,7 @@ const NavBar = () => {
           <div className='left'>
             <img src={'./images/logotipo_navbar.png'} alt="logo" className='logoNav'/>
             <ul>
-              {nav_items.map(item => <li><a href="#">{item}</a></li>)}
+              {nav_items.map((item, index) => <li key={index}><a href="#">{item}</a></li>)}
             </ul>
           </div>
           <div className='right'>

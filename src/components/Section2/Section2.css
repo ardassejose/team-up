@@ -1,0 +1,140 @@
+section.section2{
+  text-align: center;
+  background-image: url('./images/bg_doodles.png');
+  background-color: #18C6FF;
+}
+
+.section2 .content {
+  display: flex;
+  margin: 5.9rem auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 108.8rem;
+  margin: 0 auto;
+}
+
+.imgSide {
+  margin: 3.9rem 6.9rem 3.9rem 0;
+}
+
+.section2 .textSide {
+  width: 100%;
+  max-width: 57.3rem;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.section2 .title {
+  font-size: 33px;
+  line-height: 30px;
+  margin-bottom: 2.4rem;
+}
+
+.section2 img.leftImg {
+  width: 100%;
+  max-width: 45.3rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.section2 .checklist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  max-width: 48.5rem;
+  margin-bottom: 1.8rem;
+}
+
+.checklist img {
+  margin-right: 1.8rem;
+}
+
+.Button {
+  display: block;
+  padding: 1.9rem;
+  width: 100%;
+  max-width: 28.7rem;
+  background-color: #881AFF;
+  border-radius: 10px;
+}
+
+.Button .components {
+  display: flex;
+  align-items: center;
+}
+
+.Button img {
+  display: block;
+  width: 100%;
+  max-width: 2.4rem;
+  margin: 0 2rem 0 0;
+}
+
+.Button p {
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2rem;
+}
+
+.CTA {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.checklist:nth-child(4){
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 76.8rem) {
+
+  section.section2{
+    margin: 4rem auto;
+  }
+
+  .section2 img.leftImg {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .section2 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .section2 .title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 2.4rem;
+    text-align: center;
+  }
+
+  .imgSide {
+    margin: 2rem 0 2rem;
+  }
+
+  .section2 .checklist{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 95%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1.8rem;
+  }
+
+  .checklist:nth-child(4){
+    margin-bottom: 5.2rem;
+  }
+
+  .Button {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+}

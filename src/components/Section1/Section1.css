@@ -1,5 +1,5 @@
 section.section1{
-  margin-top: 8.9rem;
+  margin: 8.9rem auto;
   text-align: center;
 }
 
@@ -20,16 +20,18 @@ section.section1{
 }
 .card-group {
   margin-top: 6.7rem;
+  max-width: 95%;
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
   justify-content: center;
-  max-width: 117.8rem;
   margin: auto;
 }
 .card {
-  max-width: 38rem;
+  width: 38rem;
 }
 .card img {
+  margin: 0 auto;
   background: #881AFF;
   box-shadow: 0px 0px 20px 8px #1BC6FF;
   padding: 2rem;
@@ -46,12 +48,12 @@ section.section1{
 .card p {
   font-size: 16px;
   line-height: 15px;
-  margin: 1.6rem auto
+  margin: 1.6rem auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   section.section1{
-    margin-top: 2.8rem;
+    margin: 2.8rem auto;
     text-align: center;
   }
 
@@ -72,10 +74,17 @@ section.section1{
     margin-top: 5.9rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .card {
     margin-bottom: 4.1rem;
+    width: 100%;
+  }
+
+  .card:nth-child(3){
+    margin-bottom: 2rem;
   }
 
   .card img {

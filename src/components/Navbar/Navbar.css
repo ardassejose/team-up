@@ -6,7 +6,7 @@ nav {
 }
 
 nav .container {
-  max-width: 1200px;
+  max-width: fit-content;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -19,10 +19,16 @@ nav .container {
   align-items: center;
 }
 
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 img.logoNav {
   width: 27.5rem;
   height: auto;
-  margin-right: 10rem;
+  margin-right: 5.7rem;
 }
 
 ul {
@@ -62,7 +68,7 @@ button:nth-child(2){
   margin-right: 0;
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 76.8rem) {
   img, ul, button {
     display: block;
   }
@@ -98,6 +104,7 @@ button:nth-child(2){
   }
 
   .right {
+    display: block;
     width: 100%;
     margin: 1.9rem 0;
   }

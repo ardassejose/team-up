@@ -26,7 +26,7 @@ const Section1 = (props) => {
       <p>{props.desc}</p>
       <div className='card-group'>
         {cards.map((item, index) => (
-        <div className='card'>
+        <div className='card' key={index}>
           <img src={item.img}/>
           <h3>{item.title}</h3>
           <p>{item.desc}</p>
